@@ -4,10 +4,11 @@ Installation of MPAS on OSX machines (MacBook, Mac)
 
 Visit https://github.com/pwolfram/homebrew-mpas.git 
 
-Comment out line 19 in 'init.sh'
-    '#brew install pwolfram/mpas/pio --build-from-source'
+Comment out line 19 in init.sh
+    '#brew install pwolfram/mpas/pio --build-from-source
     
-Run 'init.sh'
+Run 
+'init.sh
 
 Install 'ParallelIO-pio1_9_23_reivsed_ver'
 
