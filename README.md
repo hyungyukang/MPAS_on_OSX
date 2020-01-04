@@ -21,7 +21,7 @@ Visit https://github.com/pwolfram/homebrew-mpas.git
     cd $PIO/pio\
     vi pio_types.F90\
     !find MAX in vi    or Go to line 309, 328\
-    change 'PIO_MAX_VAR_DIMS =nf_max_var_dims' to 'PIO_MAX_VAR_DIMS = 128'\
+    change 'PIO_MAX_VAR_DIMS =nf_max_var_dims' to 'PIO_MAX_VAR_DIMS = 6'\
     go to build dir. and install
 
 
