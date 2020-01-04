@@ -9,7 +9,7 @@ Visit https://github.com/pwolfram/homebrew-mpas.git
     #brew install pwolfram/mpas/pio --build-from-source
 ```
     
-- Run in homebrew-mpas `init.sh`
+- Run `init.sh` in homebrew-mpas
 
 - Install 'ParallelIO-pio1_9_23_reivsed_ver'
 
