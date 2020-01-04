@@ -13,12 +13,12 @@ Visit https://github.com/pwolfram/homebrew-mpas.git
 
 - Install 'ParallelIO-pio1_9_23_reivsed_ver'
 
-  (Don't need to do - Already revised in 'revised_ver')
-  Revised: PIO1_9_23
-    cd $PIO/pio
-    vi pio_types.F90
-    !find MAX in vi    or Go to line 309, 328
-    change 'PIO_MAX_VAR_DIMS =nf_max_var_dims' to 'PIO_MAX_VAR_DIMS = 128'
+  (Don't need to do - Already revised in 'revised_ver')\
+  Revised: PIO1_9_23\
+    cd $PIO/pio\
+    vi pio_types.F90\
+    !find MAX in vi    or Go to line 309, 328\
+    change 'PIO_MAX_VAR_DIMS =nf_max_var_dims' to 'PIO_MAX_VAR_DIMS = 128'\
     go to build dir. and install
 
 
