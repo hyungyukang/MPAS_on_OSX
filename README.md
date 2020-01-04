@@ -1,6 +1,6 @@
 # Installation of MPAS on OSX
 
-Installation of MPAS on OSX machines (MacBook, Mac)
+Installation of MPAS on OSX machines (MacBook, Mac)\
  (macOS Catalina, 10.15)
 
 Visit https://github.com/pwolfram/homebrew-mpas.git 
