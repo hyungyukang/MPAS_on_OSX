@@ -14,7 +14,9 @@ Visit https://github.com/pwolfram/homebrew-mpas.git
 
 - Install 'ParallelIO-pio1_9_23_reivsed_ver'
 
-  (Don't need to do - Already revised in 'revised_ver')\
+  Original PIO1.9.23 code causes 'ld 32bit RIP' problem on my MacBook Pro 2015 mid.\
+
+  (Don't need to do this - Already revised in 'revised_ver')\
   Revised: PIO1_9_23\
     cd $PIO/pio\
     vi pio_types.F90\
