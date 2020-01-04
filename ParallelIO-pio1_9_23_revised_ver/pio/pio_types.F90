@@ -307,7 +307,7 @@ module pio_types
    integer, public, parameter :: PIO_NOFILL = nf_nofill
    integer, public, parameter :: PIO_MAX_NAME = nf_max_name
 !  integer, public, parameter :: PIO_MAX_VAR_DIMS = nf_max_var_dims
-   integer, public, parameter :: PIO_MAX_VAR_DIMS = 128
+   integer, public, parameter :: PIO_MAX_VAR_DIMS = 6
    integer, public, parameter :: PIO_64BIT_OFFSET = nf_64bit_offset
    integer, public, parameter :: PIO_64BIT_DATA = nf_64bit_data
 
@@ -327,7 +327,7 @@ module pio_types
    integer, public, parameter :: PIO_NOFILL = nf90_nofill
    integer, public, parameter :: PIO_MAX_NAME = nf90_max_name
 !  integer, public, parameter :: PIO_MAX_VAR_DIMS = nf90_max_var_dims
-   integer, public, parameter :: PIO_MAX_VAR_DIMS = 128
+   integer, public, parameter :: PIO_MAX_VAR_DIMS = 6
    integer, public, parameter :: PIO_64BIT_OFFSET = nf90_64bit_offset
    integer, public, parameter :: PIO_64BIT_DATA = 0
 #else
