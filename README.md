@@ -1,4 +1,4 @@
-# Installation of MPAS on OSX
+# Installation of MPAS-Ocean on OSX
 
 Installation of MPAS on OSX machines (MacBook, Mac)\
  (macOS Catalina, 10.15)
